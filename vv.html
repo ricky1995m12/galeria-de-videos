@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ver Medio</title>
+    </head>
+    <body>
+        <p>Que disfrutes!!</p>
+        <script src="js/jquery.min.js"></script>
+        <script>
+            var /*img = $('<img alt="" height="350"/>'),*/
+                vid = $('<video autoplay loop muted/>'),
+                name = window.location.search.replace('?id=', ''),
+                poster = 'images/' + name + '.jpg',
+                video = 'videos/' + name + '.mp4';
+            /*img.attr('src', poster);*/
+            vid.attr('poster', poster).append('<source/>').attr('src', video);
+            $('body').prepend(/*img, */vid);
+        </script>
+    </body>
+</html>
