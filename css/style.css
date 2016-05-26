@@ -6,7 +6,7 @@ body {
 .caja {
 
 
-	}
+}
 .menu {
 	position:absolute;
 	top:0;
@@ -22,8 +22,8 @@ body {
 .menu ul li {
 	flex-grow: 1;
 	text-align:center;
-	
-	}
+
+}
 .menu ul a {
 	display:block;
 	text-decoration:none;
@@ -33,7 +33,7 @@ body {
 }
 .imagenes {
 	width:2600px;
-	height:250px;	
+	height:250px;
 	position:absolute;
 	top:50px;
 	left:0;
@@ -41,7 +41,7 @@ body {
 }
 .imagenes2 {
 	width:2600px;
-	height:250px;	
+	height:250px;
 	position:absolute;
 	top:360px;
 	left:0;
@@ -63,17 +63,17 @@ body {
 	top:10vh;
 	left:10vw;
 	display:none;
-	
-	}
+
+}
 video#bgvid {
-position: fixed; 
-right: 0; 
-bottom: 0;
-min-width: 100%; 
-min-height: 100%;
-width: auto; 
-height: auto; 
-z-index: -100;
-background: url(flores.jpg) no-repeat;
-background-size: cover;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	background: url(flores.jpg) no-repeat;
+	background-size: cover;
 }
