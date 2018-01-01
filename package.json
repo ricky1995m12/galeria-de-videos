@@ -1,0 +1,9 @@
+{
+  "name": "video-gallery",
+  "version": "1.0.0",
+  "description": "Gallery of videos",
+  "main": "index.js",
+  "repository": "https://github.com/ricky1995m12/galeria-de-videos.git",
+  "author": "Ricardo Arancibia <ricardo.ricky.m12@gmail.com>",
+  "license": "MIT"
+}
